@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+header {
+  height: 80px;
+  background-color: red;
+}
+.header-left {
+  float: left;
+}
+header h1 {
+  color: white;
+  font-size: 30px;
+  padding-left: 30px;
+}
+header a {
+  text-decoration: none;
+}
+header ul {
+  color: white;
+  float: right;
+  padding-right: 30px;
+  padding-top: 13px;
+}
+header li {
+  float: left;
+  list-style: none;
+  padding-right: 20px;
+}
+.header-right a {
+  color: white;
+}
+.contents {
+  height: 500px;
+  background: #ffede6;
+  margin-top: 5px;
+  border-radius: 50px;
+}
+.contents h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.color {
+  color: red;
+}
+
+.YouTube {
+  float: left;
+  padding-left: 110px;
+}
+.red {
+  color: red;
+}
+.dou {
+  font-size: 25px;
+}
+footer .copyright {
+  height: 25px;
+  float: right;
+  padding-right: 30px;
+}
+.news {
+  height: 250px;
+  background-color: #ffede6;
+}
+.news h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.news a {
+  color: black;
+}
+.osirase {
+  padding-left: 230px;
+}
+.news a:hover {
+  color: red;
+  transition: 0.2s;
+}
+.sinngata {
+  margin-top: 0px;
+}
+.topic {
+  height: 500px;
+}
+.sohuto img {
+  width: 150px;
+  height: 230px;
+  padding-top: 10px;
+}
+.sohuto li {
+  float: left;
+  list-style: none;
+  padding-left: 200px;
+}
+.topic h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.topic p {
+  padding-left: 50px;
+}
+.supu {
+  color: black;
+  text-decoration: none;
+}
+.supu:hover {
+  color: red;
+  transition: 0.2s;
+}
+.btn-buy {
+  padding: 15px 37px;
+  background-color: red;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  opacity: 0.7;
+  border-radius: 4px;
+  font-size: 23px;
+  box-shadow: 0px 5px black;
+}
+.btn-buy:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+.btn {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.btn a:hover {
+  opacity: 0.4;
+}
+.btn p {
+  display: none;
+}
